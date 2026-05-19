@@ -1,26 +1,19 @@
-# Student Performance Analyzer
+# Student Performance Analytics Dashboard
 
-A Python CLI-based application to analyze student data from CSV files.
+A Python-based analytics dashboard that processes and visualises student performance data across subjects and attendance.
 
-## 🚀 Features
-- Read and process CSV data
-- Calculate average marks
-- Assign grades
-- Identify topper
-- Search student records
-- Save processed output
-- Generate graphs using matplotlib
+## Features
+- Analyses 100+ student records from CSV data
+- Tracks Math, Science, and English scores with grade classification
+- Identifies attendance vs performance correlation
+- Highlights top performers and students needing improvement
+- Built with Python, Pandas, Streamlit, Matplotlib, and Seaborn
 
-## 🛠️ Tech Stack
-- Python
-- CSV handling
-- Matplotlib
+## Key Insights
+- Students with higher attendance showed a positive correlation with overall percentage
+- Grade distribution and subject-wise averages visualised for quick reporting
+- Automated ranking system to compare students relative to the cohort
 
-## 💡 Description
-This project demonstrates file handling, data processing, and visualization using Python.
-
-## ▶️ How to Run
-1. Ensure Python is installed
-2. Run:
-   ```bash
-   python main.py
+## How to Run
+pip install -r requirements.txt
+streamlit run app.py
